@@ -1,0 +1,9 @@
+#<VirtualHost centrikt:8989>
+#DocumentRoot "G://OpenServer/OpenServer/domains/centrikt/basic/web"
+#<Directory "/basic/web">
+#    RewriteEngine on
+#    RewriteCond %{REQUEST_FILENAME} !-f
+#    RewriteCond %{REQUEST_FILENAME} !-d
+#    RewriteRule . index.php
+#</Directory>
+#</VirtualHost>
